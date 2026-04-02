@@ -1,0 +1,29 @@
+4. Define Key Query Questions
+Examples: + how to construct
+    •    What resources are used by a deployment?
+    Join deployment with deployment-resource and resource to retrieve  
+    resources associated with each deployment, including resourceId, assignedAt and releasedAt.
+    •    Who is paying on behalf of who?
+    Join beneficiary to paying_party to client to find the organization paying for their usage.
+    Join paying_party to beneficiary to client to find all the beneficiaries (employees) that the paying party is paying for.
+    •    What substitute deployments are available?
+    Find resources of a specific type (join by x region, y performanceTier) are available by joining resource_type and resource.
+    •    What usage occurred over a time period?
+    Find usagerecord, where starttime and endtime fall within the time period. possible to also limit to a single entity by joining to client table.
+    •    What bills were generated for a client?
+    Given clientId, join to client to beneficiary to bill_item to bill_header table and print out all billids (and relevant bill data) where the paying party (paying_party) is that client.
+    •    What payments have been made?
+    Given bill id find all payments that correponed to the billid with a join to bill from payment.
+    •    What infrastructure resources are available?
+    Query resource where currentStatus = 'available', and exclude any resources with active resource_availability_event windows whose startTime <= targetTime <= endTime
+    •    Which deployment is currently running?
+    Find deployment_status where statusName is "ongoing". Select the statusId and join deployment table
+    •    5. How does actual assignment differ from the requested reservation region?
+    Join reservation to actual_assignment, then join both region IDs to cloud_region to obtain readable region names.
+    •    What time did the client request for reservation?
+    Given client, find requestStartTime and requestEndTime under the reservation table
+ 
+
+
+
+
