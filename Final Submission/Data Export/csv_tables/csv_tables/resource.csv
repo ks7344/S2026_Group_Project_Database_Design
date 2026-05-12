@@ -1,0 +1,17 @@
+resourceId,resourceTypeId,zoneId,resourceLabel,currentStatus
+101,1,1,comp-us-101,maintenance
+102,2,2,stor-us-102,available
+103,3,3,back-eu-103,in_use
+104,1,2,comp-us-104,in_use
+105,4,4,mon-ap-105,available
+106,5,5,gpu-west-106,available
+107,1,6,comp-us-107,available
+108,2,6,stor-us-108,in_use
+109,5,8,gpu-west-109,in_use
+110,4,7,mon-eu-110,available
+111,3,7,back-eu-111,maintenance
+112,1,3,comp-eu-112,available
+113,2,5,stor-west-113,available
+114,5,4,gpu-ap-114,maintenance
+115,4,1,mon-us-115,in_use
+116,3,2,back-us-116,available

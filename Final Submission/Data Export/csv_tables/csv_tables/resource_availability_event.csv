@@ -1,0 +1,21 @@
+availabilityEventId,resourceId,eventType,startTime,endTime,note
+1,101,maintenance,2026-03-07 12:00:00,2026-03-09 09:00:00,Scheduled maintenance that triggered workload migration
+2,102,repair,2026-02-20 10:00:00,2026-02-20 18:00:00,Minor storage controller repair completed same day
+3,105,outage,2026-02-28 02:00:00,2026-02-28 03:30:00,Short monitoring outage caused by network switch issue
+4,106,maintenance,2026-03-18 01:00:00,,GPU driver upgrade in progress
+5,107,maintenance,2026-01-05 01:00:00,2026-01-05 04:00:00,January kernel patch on US East compute host
+6,108,outage,2026-01-22 11:15:00,2026-01-22 12:05:00,Brief storage path interruption; redundancy preserved
+7,109,repair,2026-01-28 02:00:00,2026-01-28 06:30:00,GPU cooling fan replacement
+8,110,maintenance,2026-02-03 00:30:00,2026-02-03 02:00:00,Monitoring collector upgrade
+9,111,outage,2026-02-14 03:40:00,2026-02-14 05:10:00,Backup node network outage during switch failover
+10,112,maintenance,2026-02-25 23:00:00,2026-02-26 01:00:00,Hypervisor version update
+11,113,repair,2026-03-04 08:00:00,2026-03-04 10:30:00,Disk shelf inspection and cable replacement
+12,114,maintenance,2026-03-21 01:00:00,2026-03-21 05:30:00,GPU driver and CUDA image update
+13,115,outage,2026-03-29 18:20:00,2026-03-29 18:55:00,Metrics ingest delay caused by temporary network congestion
+14,116,maintenance,2026-04-02 00:00:00,2026-04-02 03:00:00,Monthly backup validation and index rebuild
+15,107,repair,2026-04-09 13:00:00,2026-04-09 15:00:00,Compute host memory module replacement
+16,108,maintenance,2026-04-16 22:00:00,2026-04-17 00:30:00,Storage firmware upgrade
+17,109,maintenance,2026-04-20 01:00:00,2026-04-20 04:00:00,GPU performance profile tuning
+18,111,repair,2026-04-24 09:15:00,2026-04-24 11:45:00,Backup disk replacement after warning alert
+19,112,outage,2026-04-26 05:10:00,2026-04-26 05:40:00,Brief compute control-plane interruption
+20,115,maintenance,2026-04-30 23:00:00,,Ongoing monitoring rules refresh

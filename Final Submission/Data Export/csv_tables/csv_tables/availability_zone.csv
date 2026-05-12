@@ -1,0 +1,9 @@
+zoneId,dataCenterId,zoneName,zoneStatus
+1,1,us-east-1a,active
+2,2,us-east-1b,active
+3,3,eu-central-1a,active
+4,4,ap-south-1a,degraded
+5,5,us-west-1a,active
+6,6,us-east-1c,active
+7,7,eu-central-1b,active
+8,8,us-west-1b,active

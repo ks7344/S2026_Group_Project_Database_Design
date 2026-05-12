@@ -1,0 +1,25 @@
+assignmentId,reservationId,regionId,eventStartTime,eventEndTime,satisfactionScore,reason
+1,1,1,2026-03-01 08:00:00,2026-03-10 18:00:00,4,Assigned to requested region and completed successfully
+2,2,2,2026-03-02 09:30:00,,5,Backup capacity available in preferred region
+3,3,1,2026-03-03 07:00:00,2026-03-12 20:00:00,4,Stayed in requested region after migration to another local resource
+4,4,3,2026-03-05 10:00:00,2026-03-08 16:30:00,3,Used spare resources for internal testing
+5,5,4,2026-03-18 09:00:00,,,Planned GPU assignment
+6,6,1,2026-01-06 09:00:00,2026-01-12 18:00:00,4,Assigned to US East for lowest latency to analytics team
+7,7,2,2026-01-10 10:00:00,2026-01-20 17:00:00,5,EU Central had sufficient backup capacity
+8,8,3,2026-01-18 08:30:00,2026-01-21 18:30:00,3,AP South used for regional monitoring validation
+9,9,4,2026-01-25 09:00:00,2026-02-02 17:30:00,4,US West GPU capacity available for preview workload
+10,11,4,2026-02-04 08:00:00,2026-02-11 18:00:00,5,GPU workload assigned to US West after availability check
+11,12,2,2026-02-09 09:30:00,2026-02-16 16:30:00,4,EU Central matched client monitoring requirements
+12,13,4,2026-02-15 11:00:00,2026-02-23 19:00:00,4,US West provided best app scaling capacity
+13,14,2,2026-02-21 07:00:00,2026-03-01 12:00:00,5,Backup extension kept in EU Central
+14,15,3,2026-02-26 13:00:00,2026-03-04 18:00:00,3,AP South capacity available despite degraded zone warning
+15,16,1,2026-03-11 08:00:00,2026-03-18 18:00:00,4,US East compliance environment assigned successfully
+16,17,4,2026-03-20 09:00:00,2026-03-30 20:00:00,5,US West GPU matched inference demo requirements
+17,18,2,2026-03-24 10:30:00,2026-04-02 15:00:00,4,EU Central backup plus transfer cache assigned
+18,19,1,2026-03-28 06:00:00,2026-04-05 21:00:00,4,US East used for low-latency fraud model retest
+19,20,3,2026-03-31 09:00:00,2026-04-03 17:00:00,3,AP South monitoring assigned for internal test
+20,21,4,2026-04-05 10:00:00,,,Active portal scale-out assigned to US West
+21,22,1,2026-04-08 09:00:00,,,Active analytics refresh assigned to US East
+22,23,2,2026-04-12 08:00:00,2026-04-19 16:00:00,5,EU Central backup rehearsal completed
+23,24,3,2026-04-18 11:00:00,2026-04-25 17:30:00,4,AP South failover monitoring completed
+24,25,4,2026-04-24 09:00:00,,,Planning GPU realtime app assignment in US West

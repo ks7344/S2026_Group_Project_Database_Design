@@ -1,0 +1,6 @@
+resourceTypeId,typeName,performanceTier,capacityRating
+1,compute_vm,high,16 vCPU
+2,storage_volume,standard,2 TB
+3,backup_node,standard,5 TB
+4,monitoring_node,enterprise,10 Gbps
+5,gpu_instance,premium,1 GPU / 32 GB VRAM

@@ -1,0 +1,5 @@
+paymentMethodId,payingPartyId,bankAccountName,routingNumber,accountNumber
+1,1,Alice Chen Checking,021000021,1000000001
+2,2,Patel Team Operations,026009593,1000000002
+3,3,GreenLeaf Labs AP,111000025,1000000003
+4,4,Sofia Rivera Checking,121000358,1000000004

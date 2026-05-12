@@ -1,0 +1,6 @@
+statusId,statusName
+1,planned
+2,active
+3,completed
+4,paused
+5,cancelled

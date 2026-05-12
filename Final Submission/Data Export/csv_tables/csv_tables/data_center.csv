@@ -1,0 +1,9 @@
+dataCenterId,cloudRegionId,dataCenterName
+1,1,US East DC 1
+2,1,US East DC 2
+3,2,EU Central DC 1
+4,3,AP South DC 1
+5,4,US West DC 1
+6,1,US East DC 3
+7,2,EU Central DC 2
+8,4,US West DC 2

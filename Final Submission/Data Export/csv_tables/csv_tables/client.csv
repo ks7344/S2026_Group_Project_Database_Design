@@ -1,0 +1,5 @@
+clientId,firstName,lastName,whatFor,email,password,phoneNumber,clientType
+1,Alice,Chen,analytics workloads,alice.chen@cloudnine.demo,alice123,6461234567,individual
+2,Brian,Patel,backup storage project,brian.patel@cloudnine.demo,brian456,3109876543,group
+3,GreenLeaf,Labs,internal testing and monitoring,ops@greenleaflabs.demo,green789,2015551003,organization
+4,Sofia,Rivera,realtime app hosting,sofia.rivera@cloudnine.demo,sofia321,2125552020,individual

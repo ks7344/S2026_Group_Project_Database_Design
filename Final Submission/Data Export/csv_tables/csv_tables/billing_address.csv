@@ -1,0 +1,5 @@
+addressId,payingPartyId,addressType,addressLine1,city,zipCode,country
+1,1,billing,12 Hudson St,Hoboken,07030,USA
+2,2,business,85 Market Ave,Jersey City,07302,USA
+3,3,business,400 Research Park Rd,Newark,07102,USA
+4,4,home,73 West 14th St,New York,10011,USA

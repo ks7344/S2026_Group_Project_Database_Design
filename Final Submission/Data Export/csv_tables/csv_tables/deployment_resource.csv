@@ -1,0 +1,19 @@
+deploymentResourceId,deploymentId,resourceId,assignedAt,releasedAt,roleInDeployment,assignmentStatus
+1,1,101,2026-03-01 08:00:00,2026-03-07 14:20:00,primary_compute,released
+2,1,102,2026-03-01 08:05:00,2026-03-10 18:00:00,shared_storage,released
+3,2,103,2026-03-02 09:30:00,,backup_storage,assigned
+4,3,104,2026-03-07 14:20:00,2026-03-12 20:00:00,primary_compute,released
+5,4,105,2026-03-05 10:00:00,2026-03-08 16:30:00,monitoring,released
+6,5,106,2026-03-18 09:00:00,,gpu_compute,pending
+7,6,104,2026-04-08 08:00:00,2026-04-15 18:00:00,analytics_compute,released
+8,7,103,2026-04-11 09:00:00,2026-04-13 21:00:00,backup_storage,released
+9,8,101,2026-05-02 08:00:00,2026-05-18 18:00:00,training_compute,released
+10,9,104,2026-05-10 06:00:00,2026-05-20 20:00:00,fraud_detection,released
+11,10,106,2026-06-01 08:00:00,,gpu_compute,assigned
+12,11,103,2026-06-14 10:00:00,2026-06-16 22:00:00,emergency_backup,released
+13,12,104,2026-04-01 08:00:00,,monthly_analytics_compute,assigned
+14,12,102,2026-04-01 08:00:00,,analytics_storage,assigned
+15,13,103,2026-04-01 09:00:00,,recurring_backup,assigned
+16,14,106,2026-04-15 08:00:00,,long_term_gpu_compute,assigned
+17,15,105,2026-04-01 00:00:00,2026-07-31 23:59:59,monitoring,released
+18,16,105,2026-05-01 00:00:00,,support_monitoring,assigned
